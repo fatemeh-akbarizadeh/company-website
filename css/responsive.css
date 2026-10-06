@@ -1,0 +1,136 @@
+@media screen and  (max-width:1200px) {
+    #top-navigation ul li {
+        margin: 0 10px;
+    }
+  
+}
+@media screen and (max-width:992px) {
+      #top-navigation ul li {
+        margin: 0 5px;
+    }
+    
+a#logo-wrapper img {
+    height: 50px;
+
+}
+    #search-form{
+        width: 40%;
+    }
+    #services-wrapper{
+        flex-wrap: wrap;
+    }
+    .service{
+        flex-basis: 48%;
+    }
+
+ul#filters{
+    width: 100%;
+}
+#product-wrapper{
+       grid-template-columns: repeat(2,auto);
+}
+#teacher_wrapper{
+    flex-wrap: wrap;
+}
+.teacher{
+    flex-basis: 48%;
+}
+#column-wrapper{
+    flex-wrap: wrap;
+}
+.column{
+    flex-basis: 48%;
+}
+
+   
+
+}
+@media screen and (max-width:768px) {
+
+     #top-navigation ul li a {
+       display: none;
+    }
+       #search-form{
+        width: 80%;
+    }
+     .service{
+        flex-basis: 100%;
+    }
+    .record-wrapper{
+        flex-wrap: wrap;
+    }
+.record{
+    flex-basis: 48%;
+}
+.record .fa-solid{
+    top: -10px;
+}
+.record h1{
+    top: 30px;
+}
+.record p{
+   top: 80px;
+}
+
+.comment-header{
+    flex-direction: column;
+    text-align: center;
+}
+.customer-image{
+    display: block;
+    margin: 0 auto;
+}
+#communication-wrapper{
+    flex-wrap: wrap;
+}
+.communication{
+    flex-basis: 48%;
+}
+} 
+@media screen and (max-width:576px) {
+ .record{
+    flex-basis: 100%;
+}
+#comments-wrapper{
+    flex-wrap: wrap
+}
+.comment{
+    flex-basis: 100%;
+}
+ul#filters{
+    display: block;
+    border-radius: 20px;
+}
+ul#filters li  a:link {
+    display: block;
+    margin: 3px;
+
+}
+    #product-wrapper{
+       grid-template-columns: repeat(1,auto);
+}
+.teacher{
+    flex-basis: 100%;
+}
+.communication{
+    flex-basis: 100%;
+}
+#right,#left{
+    flex-basis: 100%;
+}
+.column{
+    flex-basis: 100%;
+}
+#logo-footer{
+    display: block;
+    margin: 0 auto;
+}
+.img-btn{
+    display: block;
+    margin: 5px auto;
+}
+#copyright p{
+    line-height: 20px;
+}
+}
+    
